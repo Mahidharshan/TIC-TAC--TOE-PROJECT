@@ -1,0 +1,40 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("https://play-lh.googleusercontent.com/ia6J1YfhLaBJeXyTNAfGx7ioOt5ONwP7LAqXABBYWuZpyx1IYxNOI9TzIjHJ_jzt8Eg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+section{
+    background-color: rgba(255, 187, 0, 0.246);
+    width: 450px;
+    text-align: center;
+    padding: 15px;
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 50px auto;
+}
+.cell{
+    font-family: "Permanent Marker",cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+}
+.ms{
+    background-color: rgba(255, 69, 1, 0.698);
+}
+.md{
+    background-color: aliceblue;
+}
+.cell{
+    background-color: rgba(255, 200, 0, 0.558);
+}
